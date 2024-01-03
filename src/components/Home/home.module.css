@@ -1,0 +1,87 @@
+.section {
+  position: relative;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  min-height: 90vh;
+}
+
+.section h1 {
+  font-family: var(--font-secondary);
+  font-size: 8rem;
+  font-weight: 600;
+}
+
+.section h3 {
+  font-family: var(--font-secondary);
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 6rem;
+}
+
+.section ul {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  padding: 1rem;
+}
+
+.section li {
+  margin: 0 3rem;
+}
+
+.section a {
+  text-transform: uppercase;
+  font-weight: 800;
+  padding: 1.2rem 2rem;
+  border-radius: 50%;
+  cursor: pointer;
+  background: var(--color-white);
+  box-shadow:  0px 4px 5px #a4a3a3
+}
+
+.section a:hover {
+  border-color: var(--color-black);
+  background-color: var(--color-black);
+  color: var(--color-white);
+  transform: scale(1.1);
+  transition: all .3s;
+}
+
+.section a:not(:hover) {
+  transition: all .3s;
+}
+
+.arrowDownIcon {
+  position: absolute;
+  bottom: 0;
+  opacity: 0;
+  visibility: hidden;
+  animation: arrowDown 2s infinite linear both, isVisible 5s both ease-in;
+}
+
+
+@keyframes isVisible {
+  to {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+@keyframes arrowDown {
+  0% {
+    
+  }
+
+  50% {
+    transform: translateY(-15px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}

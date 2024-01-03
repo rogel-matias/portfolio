@@ -1,0 +1,28 @@
+.section {
+  max-width: 75rem;
+  margin: auto;
+}
+
+.section h2 {
+  text-align: start;
+  font-size: 2.5rem;
+  font-family: var(--font-secondary);
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 4rem 0 2rem;
+}
+
+.section div {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1.8rem;
+
+  width: 100%;
+}
+
+.section img { 
+  fill: white;
+  object-fit: contain ;
+  width: 5rem;
+  height: 5rem;
+}

@@ -1,0 +1,19 @@
+.wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+
+  width: 100%;
+  font-family: var(--font-main);
+  color: var(--negro);
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1260px) {}
+
+@media (min-width: 320px) and (max-width: 768px) {}
+
+@media (min-width: 320px) and (max-width: 480px) {}
+
+/* Burger Button */
+@media (min-width: 320px) and (max-width: 690px) {}
