@@ -4,7 +4,26 @@
 
   width: 100%;
   font-family: var(--font-main);
-  color: var(--negro);
+  color: var(--black);
+  background-color: var(--white);
+}
+
+section {
+  padding: 2rem;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+
+h2 {
+  text-align: start;
+  font-size: 2.5rem;
+  font-family: var(--font-secondary);
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 4rem 0 2rem;
 }
 
 

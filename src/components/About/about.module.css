@@ -1,36 +1,32 @@
 .section {
-  max-width: 75rem;
+  max-width: 70rem;
   margin: auto;
-}
-
-.section h2 {
-  text-align: start;
-  font-size: 2.5rem;
-  font-family: var(--font-secondary);
-  font-weight: 600;
-  text-transform: uppercase;
-  margin: 4rem 0 2rem;
 }
 
 .container {
   display: flex;
   flex-flow: row wrap;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 8rem;
+  justify-content: space-between;
+  gap: 1rem;
 }
 
 .text {
   display: flex;
   flex-flow: column nowrap;
   gap: 1rem;
-  font-size: 1.3rem;
-  line-height: 2rem;
   text-wrap: pretty;
 }
 
 .text p {
   max-width: 47rem;
+}
+
+.text span {
+  color: rgb(126, 45, 255);
+}
+
+.text span:hover {
+  font-weight: 800;
 }
 
 .text aside {
@@ -40,9 +36,10 @@
 
 .aside {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column nowrap;
+  justify-content: center;
   align-items: center;
-  gap: 2.5rem;
+  gap: 1rem;
 }
 
 .aside img {
@@ -55,14 +52,17 @@
 .aside button {
   width: 50%;
   padding: 0.7rem;
-  color: var(--white);
+  color: var(--violetLight);
   background-color: var(--black);
+  border: 1px solid var(--black);
+  border-radius: 10px;
   font-weight: 600;
   cursor: pointer;
 }
 
 .aside button:hover {
-  color: var(--black);
+  color: var(--violet);
   background-color: var(--white);
+  border: 1px solid var(--violet);
   transition: color 1.5s ease;
 }

@@ -29,16 +29,15 @@
 
 /* Aquí definimos las Custom properties */
 :root {
-  --black: #393939;
-  --white: #ececec;
+  --black: #0e0e0e;
+  --white: #ffffff;
+  --violet: rgb(126, 45, 255);
+  --violetLight: rgb(252, 250, 255);
+  --violetDark: rgb(69, 28, 134);
   
   /* Tipografía */
   --font-main: Lato, sans-serif;
   --font-secondary: Playfair Display, serif;
-}
-
-section {
-  padding: 2rem;
 }
 
 /* Las adaptamos al modo oscuro */
@@ -111,8 +110,8 @@ html {
 
 /* Desactivamos estilos por defecto de las principales etiquetas de texto */
 h1, h2, h3, h4, h5, h6, p, span, a, strong, blockquote, i, b, u, em {
-  font-size: 1em;
-  font-weight: inherit;
+  /* font-size: 1em; */
+  /* font-weight: inherit; */
   font-style: inherit;
   text-decoration: none;
   color: inherit;
@@ -159,7 +158,7 @@ table, tr, td {
 svg {
   width: 100%;
   display: block;
-  fill: currentColor;
+  /* fill: currentColor; */
 }
 
 /* (Probándolo, no usar en producción) En el caso de añadir una  */

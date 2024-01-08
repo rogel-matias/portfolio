@@ -1,46 +1,46 @@
 const ICONS = {
   javascript: {
-    svg: '/assets/rrss/svg/javascript.svg',
+    svg: '/assets/skills/javascript.svg',
     alt: 'Javascript'
   },
   react: {
-    svg: '/assets/rrss/svg/react.svg',
+    svg: '/assets/skills/react.svg',
     alt: 'React'
   },
   sass: {
-    svg: '/assets/rrss/svg/sass.svg',
+    svg: '/assets/skills/sass.svg',
     alt: 'SASS'
   },
   html: {
-    svg: '/assets/rrss/svg/html5.svg',
+    svg: '/assets/skills/html5.svg',
     alt: 'Html5'
   },
   css: {
-    svg: '/assets/rrss/svg/css3.svg',
+    svg: '/assets/skills/css3.svg',
     alt: 'Css3'
   },
   bootstrap: {
-    svg: '/assets/rrss/svg/bootstrap.svg',
+    svg: '/assets/skills/bootstrap.svg',
     alt: 'Bootstrap'
   },
   typescript: {
-    svg: '/assets/rrss/svg/typescript.svg',
+    svg: '/assets/skills/typescript.svg',
     alt: 'Typescript'
   },
   tailwind: {
-    svg: '/assets/rrss/svg/tailwind.svg',
+    svg: '/assets/skills/tailwind.svg',
     alt: 'Tailwind CSS'
   },
   firebase: {
-    svg: '/assets/rrss/svg/firebase.svg',
+    svg: '/assets/skills/firebase.svg',
     alt: 'Firebase'
   },
   npm: {
-    svg: '/assets/rrss/svg/npm.svg',
+    svg: '/assets/skills/npm.svg',
     alt: 'NPM'
   },
   git: {
-    svg: '/assets/rrss/svg/git.svg',
+    svg: '/assets/skills/git.svg',
     alt: 'Git'
   },
 }
