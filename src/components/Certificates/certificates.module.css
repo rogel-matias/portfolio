@@ -3,3 +3,22 @@
   margin: auto;
   text-align: left;
 }
+
+.buttonsContainer {
+  width: 100%;
+  margin-top: 3rem;
+  
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
+}
+
+.buttonsContainer svg {
+  color: var(--violetDark);
+}
+
+.buttonsContainer path:hover {
+  cursor: pointer;
+}

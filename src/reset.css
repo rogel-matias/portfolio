@@ -30,7 +30,9 @@
 /* Aquí definimos las Custom properties */
 :root {
   --black: #0e0e0e;
+  --grey: #e0e0e0;
   --white: #ffffff;
+    
   --violet: rgb(126, 45, 255);
   --violetLight: rgb(252, 250, 255);
   --violetDark: rgb(69, 28, 134);

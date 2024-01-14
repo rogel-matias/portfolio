@@ -45,7 +45,6 @@ const ICONS = {
   },
 }
 
-
 export const data = {
   projects: [
     {
@@ -161,5 +160,15 @@ export const data = {
     ICONS.tailwind,
     ICONS.bootstrap,
     ICONS.firebase
+  ],
+  certificates: [
+    '/assets/certificates/carrera-frontend.png',
+    '/assets/certificates/react-js.png',
+    '/assets/certificates/javascript.png',
+    '/assets/certificates/desarrollo-web.png',
+    '/assets/certificates/diseño-uxui.png',
+    '/assets/certificates/reparacion-pc.png',
+    '/assets/certificates/electronica-basica.png',
+    '/assets/certificates/marketing.png',
   ]
 }
