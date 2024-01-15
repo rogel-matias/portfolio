@@ -26,19 +26,21 @@ function Certificates () {
   return(
     <section className={styles.section}>
       <h2>Certificates</h2>
-      {
-        certificates.map((certificate, index) => (
-          <Certificate
-            key={index} 
-            index={index}
-            certificate={certificate}
-            currentImage={currentImage}
-          />
-        ))
-      }
-      <div className={styles.buttonsContainer}>
-      <button onClick={prevImage}><ArrowLeftIcon/></button>
-      <button onClick={nextImage}><ArrowRightIcon/></button>
+      <div className={styles.slider}>
+        <button onClick={prevImage}><ArrowLeftIcon/></button>
+        <div>
+          {
+            certificates.map((certificate, index) => (
+              <Certificate
+                key={index} 
+                index={index}
+                certificate={certificate}
+                currentImage={currentImage}
+              />
+            ))
+          }
+        </div>
+        <button onClick={nextImage}><ArrowRightIcon/></button>
       </div>
     </section>
   )

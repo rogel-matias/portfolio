@@ -4,7 +4,7 @@
   background-color: var(--violetLight);
 
   height: 18rem;
-  border-top: 1px solid black;
+  border-radius: 10px;
   overflow: hidden;
 }
 
@@ -29,7 +29,7 @@
 
 .article h4 {
   font-size: 2rem;
-  color: var(--violetDark);
+  color: var(--violet);
 }
 
 .article p {

@@ -19,7 +19,7 @@
 
 .section h3 {
   font-family: var(--font-secondary);
-  color: var(--violetDark);
+  color: var(--violet);
   font-size: 3rem;
   font-weight: 400;
   margin-bottom: 6rem;
@@ -61,7 +61,7 @@
   bottom: 0;
   opacity: 0;
   visibility: hidden;
-  animation: arrowDown 2s infinite linear both, isVisible 5s both ease-in;
+  animation: arrowDown 1.5s infinite linear both, isVisible 3s both ease-in;
 }
 
 

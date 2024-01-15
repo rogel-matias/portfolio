@@ -34,7 +34,7 @@
   --white: #ffffff;
     
   --violet: rgb(126, 45, 255);
-  --violetLight: rgb(252, 250, 255);
+  --violetLight: rgb(251, 250, 254);
   --violetDark: rgb(69, 28, 134);
   
   /* Tipografía */
@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6, p, span, a, strong, blockquote, i, b, u, em {
   /* font-weight: inherit; */
   font-style: inherit;
   text-decoration: none;
-  color: inherit;
+  /* color: inherit; */
 }
 
 /* Evitamos problemas con los pseudoelementos de quotes */

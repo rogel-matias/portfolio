@@ -4,21 +4,28 @@
   text-align: left;
 }
 
-.buttonsContainer {
-  width: 100%;
-  margin-top: 3rem;
-  
+.slider {
+  width: 95%;
+  margin: auto;
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
-  gap: 8rem;
 }
 
-.buttonsContainer svg {
-  color: var(--violetDark);
+.slider div {
+  width: 100%;
 }
 
-.buttonsContainer path:hover {
+.slider svg {
+  width: 6rem;
+  height: min-content;
+  fill: var(--violetDark);
+  transition: all 0.2s ease-out;
+}
+
+.slider svg:hover {
+  fill: var(--violet);
   cursor: pointer;
+  transform: scale(1.1);
 }

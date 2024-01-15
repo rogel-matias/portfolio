@@ -22,14 +22,14 @@ function App() {
           <Route path="/" element={<About />} />
         </Routes>
       </div>
-      <div id="skills">
-        <Routes>
-          <Route path="/" element={<Skills />} />
-        </Routes>
-      </div>
       <div id="projects">
         <Routes>
           <Route path="/" element={<Projects />} />
+        </Routes>
+      </div>
+      <div id="skills">
+        <Routes>
+          <Route path="/" element={<Skills />} />
         </Routes>
       </div>
       <div id="certificates">
