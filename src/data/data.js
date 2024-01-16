@@ -49,18 +49,41 @@ export const data = {
   projects: [
     {
       id: 1,
-      title: 'Tu Giffy',
+      title: 'El Tente',
       img: {
-        webp:'/assets/projects/tu-giffy.webp', 
-        alt:'Web: El Tente'
-      }, 
+        webp:'/assets/projects/el-tente.webp', 
+        alt:'El Tente'
+      },
       description: {
-        text: 'Web buscador de gifs con register/login, función de añadir favoritos, clasificar por edad y revisar tendencias. Para esto me he servido de la API de Giphy. Algunas dependencias: React Helmet, Formik, Wouter.',
+        text: 'Proyecto real para cliente dedicado a empresa de branding, fotografía, diseño y video. Se utilió Formik para realizar un formulario, con servicio de envio de Email JS.',
         icons: [
           ICONS.html,
           ICONS.css,
+          ICONS.sass,
+          ICONS.javascript,
           ICONS.react,
-          ICONS.fire,
+        ]
+      },
+      url: {
+        github: undefined,
+        deploy: 'www.eltente.com'
+      }
+    },
+    {
+      id: 2,
+      title: 'Tu Giffy',
+      img: {
+        webp:'/assets/projects/tu-giffy.webp', 
+        alt:'Giffy App'
+      }, 
+      description: {
+        text: 'Buscador de gifs con register/login, posibilidad de añadir favoritos, clasificar por edad y revisar tendencias. Me he servido de la API de Giphy para este proyecto.',
+        icons: [
+          ICONS.html,
+          ICONS.css,
+          ICONS.javascript,
+          ICONS.react,
+          ICONS.firebase,
         ]
       },
       url: {
@@ -69,38 +92,20 @@ export const data = {
       }
     },
     {
-      id: 2,
-      title: 'El Tente',
-      img: {
-        webp:'/assets/projects/el-tente.webp', 
-        alt:'Web: El Tente'
-      },
-      description: {
-        text: 'Mi primer proyecto profesional para un cliente dedicado a una empresa de branding, fotografía, diseño y video. Contiene formulario manejado con Formik y enviado partir del servicio Email JS, React Helmet, Toastify, etc.',
-        icons: [
-          ICONS.html,
-          ICONS.sass,
-          ICONS.react,
-        ]
-      },
-      url: {
-        deploy: 'www.eltente.com'
-      }
-    },
-    {
       id: 3,
       title: 'Tu Tabaco',
       img: {
         webp:'/assets/projects/tu-tabaco.webp', 
-        alt:'Web: Tu Tabaco'
+        alt:'Tu Tabaco | Ecommerce'
       },
       description: {
-        text: 'E-commerce tabaquería estilado con la librería Tailwind CSS. Contiene manejo de base de datos a partir de Firebase, carrito de compras, clasificación de mercadería, manejo de stock y más.',
+        text: 'E-commerce Tabaquería. Contiene manejo de base de datos a partir de Firebase, carrito de compras, clasificación de mercadería, manejo de stock y más.',
         icons: [
           ICONS.html,
           ICONS.css,
+          ICONS.tailwind,
           ICONS.react,
-          ICONS.fire,
+          ICONS.firebase,
         ]
       },
       url: {
@@ -113,14 +118,14 @@ export const data = {
       title: 'Open Drink Store',
       img: {
         webp:'/assets/projects/open-drink-store.webp', 
-        alt:'Web: Open Drink Store'
+        alt:'Open Drink Store | Ecommerce'
       },
       description: {
-        text: 'E-commerce de bebidas realizado con HTML, CSS, Javascript Vanilla y LocalStorage para el guardado de datos. Contiene carrito de compras, posibilidad de eliminar productos del mismo, manejo de stock y demás característica.',
+        text: 'E-commerce de bebidas simple, utilizando LocalStorage para el guardado de datos. Contiene carrito de compras, posibilidad de eliminar productos del mismo y manejo de stock.',
         icons: [
           ICONS.html,
           ICONS.css,
-          ICONS.react,
+          ICONS.javascript,
         ]
       },
       url: {
@@ -133,10 +138,10 @@ export const data = {
       title: 'Joyeria Gold',
       img: {
         webp:'/assets/projects/joyeria-gold.webp',
-        alt:'Web: Joyeria Gold'
+        alt:'Joyeria Gold'
       }, 
       description: {
-        text: 'Web estática de tienda de joyerías realizada con HTML y SASS. Fué mi primer proyecto como developer donde entendí que comenzaba la pasión.',
+        text: 'Web estática. Tienda de joyerías realizada con HTML y SASS. Fué mi primer proyecto como desarrollador y es importante para mi ya que con el comprendí que comenzaba mi pasión.',
         icons: [
           ICONS.html,
           ICONS.sass,

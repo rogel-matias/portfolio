@@ -3,6 +3,7 @@ import GithubIcon from '../../../assets/icons/GithubIcon'
 import styles from './project.module.css'
 
 function Project ({ project }) {
+  console.log(project.description.icons)
   return (
     <article className={styles.article}>
       <div className={styles.contain}>
@@ -11,9 +12,29 @@ function Project ({ project }) {
           <a href={project.url.deploy} target="_blank" rel="noreferrer"><ExternalLinkIcon /></a>
         </div>
         <p>{project.description.text}</p>
-        <a href={project.url.github} target="_blank" rel="noreferrer"><GithubIcon /></a>
-      </div>    
-      <img src={project.img.webp} alt={project.img.alt} />
+        <ul>
+          <div>
+            {
+              project.description.icons.map(icon => {
+                if(icon === undefined) return
+                return (
+                <li key={icon['alt']}>
+                  <img alt={icon['alt']} src={icon['svg']}/>
+                </li>
+                )
+              })
+            }
+          </div>
+          {
+          project.url.github 
+            ? <a href={project.url.github} target="_blank" rel="noreferrer">
+              <GithubIcon />
+            </a> 
+            : null
+          }
+        </ul>
+      </div>      
+      <img className={styles.imgProject} src={project.img.webp} alt={project.img.alt} />
     </article>
   )
 }

@@ -27,6 +27,7 @@
 
 .text span:hover {
   font-weight: 800;
+  cursor: pointer;
 }
 
 .text aside {
@@ -46,7 +47,7 @@
   width: 14rem;
   height: 14rem;
   border-radius: 100%;
-  opacity: 90%;
+  filter: grayscale(20%);
 }
 
 .aside button {

@@ -22,7 +22,3 @@
 .slide.active {
 	opacity: 1;
 }
-
-.slide.active:hover {
-	scale: 1.3;
-}

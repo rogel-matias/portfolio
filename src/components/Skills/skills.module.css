@@ -12,8 +12,13 @@
 }
 
 .section img { 
-  fill: white;
+  filter: grayscale(80%);
   object-fit: contain ;
   width: 5rem;
   height: 5rem;
+  transition: filter 0.8s ease-in-out;
+}
+
+.section img:hover {
+  filter: grayscale(0%);
 }

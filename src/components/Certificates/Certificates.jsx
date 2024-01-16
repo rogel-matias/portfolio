@@ -25,7 +25,10 @@ function Certificates () {
   
   return(
     <section className={styles.section}>
-      <h2>Certificates</h2>
+      <h2>Certificados</h2>
+      <p>
+        Basados en el área de programación y reparación y mantenimiento de computadoras.
+      </p>
       <div className={styles.slider}>
         <button onClick={prevImage}><ArrowLeftIcon/></button>
         <div>
