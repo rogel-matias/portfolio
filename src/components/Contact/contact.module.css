@@ -1,5 +1,32 @@
 .section {
-  max-width: 70rem;
+  min-height: 90vh;
+  position: relative;
+ 
   margin: auto;
   text-align: left;
+}
+
+.section::before { 
+  content: "";
+  background-image: url('/public/assets/background/contact.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.02;
+  pointer-events: none;
+}
+
+.contain h2 {
+}
+
+.contain {
+  max-width: 70rem;
+  padding: 2rem;
+  margin: auto;
+  text-align: left;
+  z-index: 20;
 }

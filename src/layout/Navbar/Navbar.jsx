@@ -47,18 +47,6 @@ const Navbar = () => {
           </li>
           <li>
             <ScrollLink 
-              to="skills"
-              onClick={handleToggleMenu}
-              smooth={true}
-              duration={500}
-              spy={true}
-              exact="true"
-            >
-              Habilidades
-            </ScrollLink>
-          </li>
-          <li>
-            <ScrollLink 
               to="projects"
               onClick={handleToggleMenu}
               smooth={true}
@@ -67,6 +55,18 @@ const Navbar = () => {
               exact="true"
             >
               Proyectos
+            </ScrollLink>
+          </li>
+          <li>
+            <ScrollLink 
+              to="skills"
+              onClick={handleToggleMenu}
+              smooth={true}
+              duration={500}
+              spy={true}
+              exact="true"
+            >
+              Habilidades
             </ScrollLink>
           </li>
           <li>

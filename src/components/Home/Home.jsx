@@ -1,21 +1,25 @@
 import ArrowDownIcon from '../../assets/icons/ArrowDownIcon'
+import GithubIcon from '../../assets/icons/GithubIcon'
+import LinkedinIcon from '../../assets/icons/LinkedinIcon'
 
 import styles from './home.module.css'
 
-function Home () {
+function Home ({ title, subtitle }) {
   return (
     <section className={styles.section}>
-      <h1>Matías Rogel</h1>
-      <h3>Frontend Developer</h3>
-      <ul>
-        <li>
-          <a>Visitar mi Github</a>
-        </li>
-        <li>
-          <a>Visitar mi Linkedin</a>
-        </li>
-      </ul>
-      <ArrowDownIcon className={styles.arrowDownIcon}/>
+      <div className={styles.contain}>
+        <h1>{title}</h1>
+        <h3>{subtitle}</h3>
+        <ul>
+          <li>
+            <a><GithubIcon />Mi GitHub</a>
+          </li>
+          <li>
+            <a><LinkedinIcon />Mi LinkedIn</a>
+          </li>
+        </ul>
+        <ArrowDownIcon className={styles.arrowDownIcon}/>
+      </div>
     </section>
   )
 }

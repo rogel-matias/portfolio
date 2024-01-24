@@ -18,7 +18,7 @@
 }
 
 .slider svg {
-  width: 6rem;
+  width: 4rem;
   height: min-content;
   fill: var(--violetDark);
   transition: all 0.2s ease-out;

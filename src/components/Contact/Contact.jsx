@@ -1,15 +1,14 @@
 import FormContact from "./FormContact/FormContact";
 import styles from './contact.module.css'
 
-export default function Contact () {
+export default function Contact ({title, text}) {
   return(
     <section className={styles.section}>
-      <h2>Contacto</h2>
-      <p>
-        Ante cualquier duda no dudes en dejar tu mensaje o 
-        contactarme a través de cualquiera de mis redes sociales.
-      </p>
-      <FormContact />
+      <div className={styles.contain}> 
+        <h2>{title}</h2>
+        <p>{text}</p>
+        <FormContact />
+      </div>
     </section>
   )
 }
